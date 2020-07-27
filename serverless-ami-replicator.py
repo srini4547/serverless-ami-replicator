@@ -6,8 +6,6 @@ import collections
 
 # Set the global variables
 globalVars  = dict()
-globalVars['Owner']                 = 'Miztiik'
-globalVars['Environment']           = 'Test'
 globalVars['SourceRegion']          = 'ap-south-1'
 globalVars['destRegions']           = ['us-east-1','us-east-2',]        # List of AWS Regions to which the AMI to be copied
 globalVars['amiRetentionDays']      = int(5)                # AMI Rentention days in DR/Destination Region.
